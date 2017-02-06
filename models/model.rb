@@ -1,0 +1,36 @@
+#Write your ruby methods here!
+def choose_food (mood,why)
+  if mood =="happy"&&why=="promotion"|| why=="good grades"||why=="breakup"||why=="bad grades"||why=="siblings"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="day off"||why=="no homework"
+    food="nachos"
+    pic="https://pioneerwoman.files.wordpress.com/2013/05/8754705955_4ec22bcbd9_z.jpg?w=630&h=419"
+  elsif mood =="happy"&&why=="good grades"||why=="promotion"||why=="breakup"||why=="bad grades"||why=="siblings"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="day off"||why=="no homework"
+    food="gummi bears"
+    pic="http://farm4.staticflickr.com/3769/9234009120_21d69eacee_o.jpg"
+    elsif mood=="sad"&&why=="breakup"||why=="promotion" ||why=="good grades"||why=="bad grades"||why=="siblings"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="day off"||why=="no homework"
+    food="ice cream"
+    pic="http://morellisicecream.com/wp-content/uploads/2014/05/MIC-3scoops-banner.png"
+    elsif mood =="sad"&&why=="bad grades"||why=="promotion" ||why=="good grades"||why=="breakup"||why=="siblings"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="day off"||why=="no homework"
+    food="hamburger"
+    pic="https://www.kingsford.com/wp-content/uploads/2014/11/kfd-howtohamburger-Burgers_5_0391-1024x621.jpg"
+   elsif mood=="annoyed"&&why=="siblings"||why=="promotion" ||why=="good grades"||why=="breakup"||why=="bad grades"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="day off"||why=="no homework"
+    food="chips"
+    pic="http://josephrex.me/assets/Chips-438fc6408c22fb66b7cd10fe36181830.jpg"
+   elsif mood=="annoyed"&&why=="chores"||why=="promotion" ||why=="good grades"||why=="breakup"||why=="bad grades"||why=="siblings"||why=="meeting new people"||why=="day off"||why=="no homework"
+    food="donuts"
+    pic="http://bosadonutsaz.com/wp-content/uploads/2015/02/manydonuts.jpg"
+   elsif mood=="nervous"&&why=="presentation"||why=="promotion" ||why=="good grades"||why=="breakup"||why=="bad grades"||why=="siblings"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="day off"||why=="no homework"
+    food="chocolate"
+    pic="http://www.gervasivineyard.com/assets/client/Image/Events/chocolate1.jpg"
+   elsif mood=="nervous"&&why=="meeting new people"||why=="promotion" ||why=="good grades"||why=="breakup"||why=="bad grades"||why=="siblings"||why=="chores"||why=="presentation"||why=="day off"||why=="no homework"
+    food="cookies"
+    pic="https://upload.wikimedia.org/wikipedia/commons/b/b9/Chocolate_Chip_Cookies_-_kimberlykv.jpg"
+   elsif mood=="relaxed"&&why=="day off"||why=="promotion" ||why=="good grades"||why=="breakup"||why=="bad grades"||why=="siblings"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="no homework"
+    food="ramen noodles"
+    pic="http://www.planetforward.org/sites/default/files/dcs-321_2z.jpg"
+   elsif mood=="relaxed"&&why=="no homework"||why=="promotion" ||why=="good grades"||why=="breakup"||why=="bad grades"||why=="siblings"||why=="chores"||why=="presentation"||why=="meeting new people"||why=="day off"
+    food="banconatorfries"
+    pic="http://4.bp.blogspot.com/-HAUdsmSHLeQ/VZwvgAekSSI/AAAAAAAAoCM/evhOpWyhVnY/s640/wendys-baconator-fries-03.JPG"
+    []
+ end 
+[food,pic]
+end
